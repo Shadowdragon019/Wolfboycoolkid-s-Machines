@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GatuniumDirtOre"
+      },
+      {
+        "value": "CUSTOM:GatuniumGravelOre"
+      },
+      {
+        "value": "CUSTOM:GatuniumSandOre"
+      },
+      {
+        "value": "CUSTOM:GatuniumRedSandOre"
+      },
+      {
+        "value": "CUSTOM:RawGatunium"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "gatunium_ore",
+    "namespace": "forge"
+  }
+}

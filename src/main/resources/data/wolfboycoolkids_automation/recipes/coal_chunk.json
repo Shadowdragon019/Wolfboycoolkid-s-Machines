@@ -1,0 +1,13 @@
+{
+  "group": "coal_chunk",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_automation:coal_chunk",
+    "count": 8
+  }
+}

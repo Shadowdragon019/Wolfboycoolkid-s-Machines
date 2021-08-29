@@ -1,0 +1,13 @@
+{
+  "group": "lapis_lazuli_lump",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_automation:lapis_lazuli_lump",
+    "count": 3
+  }
+}

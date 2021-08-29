@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "quartz_from_quartz_fragments",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuartzFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuartzFragment"
+      },
+      {
+        "value": "CUSTOM:QuartzFragment"
+      },
+      {
+        "value": "CUSTOM:QuartzFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuartzFragment"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.QUARTZ"
+    },
+    "name": "quartz_from_quartz_fragments",
+    "namespace": "mod"
+  }
+}

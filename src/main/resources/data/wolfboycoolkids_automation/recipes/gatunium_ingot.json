@@ -1,0 +1,42 @@
+{
+  "group": "gatunium_ingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "1": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "2": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "3": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "4": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "5": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "6": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "7": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    },
+    "8": {
+      "item": "wolfboycoolkids_automation:gatunium_nugget"
+    }
+  },
+  "result": {
+    "item": "wolfboycoolkids_automation:gatunium_ingot",
+    "count": 1
+  }
+}

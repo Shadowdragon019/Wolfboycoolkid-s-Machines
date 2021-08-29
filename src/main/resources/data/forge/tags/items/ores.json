@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wolfboycoolkids_automation:gatunium_dirt_ore",
+    "wolfboycoolkids_automation:gatunium_gravel_ore",
+    "wolfboycoolkids_automation:gatunium_sand_ore",
+    "wolfboycoolkids_automation:gatunium_red_sand_ore",
+    "wolfboycoolkids_automation:raw_gatunium"
+  ]
+}

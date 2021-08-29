@@ -19,4 +19,16 @@ authors="Oskar W. Heineck, MCreator"
 
 
 
+[[dependencies.wolfboycoolkids_automation]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.wolfboycoolkids_automation]]
+    modId="crafttweaker"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

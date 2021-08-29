@@ -1,1 +1,16 @@
-{}
+{
+  "item.wolfboycoolkids_automation.quartz_fragment": "Quartz Fragment",
+  "item.wolfboycoolkids_automation.charcoal_chunk": "Charcoal Chunk",
+  "block.wolfboycoolkids_automation.gatunium_dirt_ore": "Gatunium Dirt Ore",
+  "item.wolfboycoolkids_automation.coal_chunk": "Coal Chunk",
+  "item.wolfboycoolkids_automation.gatunium_nugget": "Gatunium Nugget",
+  "item.wolfboycoolkids_automation.emerald_shard": "Emerald Shard",
+  "item.wolfboycoolkids_automation.raw_gatunium": "Raw Gatunium",
+  "item.wolfboycoolkids_automation.redstone_granules": "Redstone Granules",
+  "item.wolfboycoolkids_automation.gatunium_ingot": "Gatunium Ingot",
+  "block.wolfboycoolkids_automation.gatunium_red_sand_ore": "Gatunium Red Sand Ore",
+  "block.wolfboycoolkids_automation.gatunium_gravel_ore": "Gatunium Gravel Ore",
+  "block.wolfboycoolkids_automation.gatunium_sand_ore": "Gatunium Sand Ore",
+  "item.wolfboycoolkids_automation.lapis_lazuli_lump": "Lapis Lazuli Lump",
+  "item.wolfboycoolkids_automation.diamond_shard": "Diamond Shard"
+}

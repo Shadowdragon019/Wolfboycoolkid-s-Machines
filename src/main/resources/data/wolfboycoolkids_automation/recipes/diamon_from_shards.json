@@ -1,0 +1,42 @@
+{
+  "group": "diamon_from_shards",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "1": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "2": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "3": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "4": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "5": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "6": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "7": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    },
+    "8": {
+      "item": "wolfboycoolkids_automation:diamond_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

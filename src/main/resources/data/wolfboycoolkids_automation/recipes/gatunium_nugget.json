@@ -1,0 +1,13 @@
+{
+  "group": "gatunium_nugget",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wolfboycoolkids_automation:gatunium_ingot"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_automation:gatunium_nugget",
+    "count": 9
+  }
+}

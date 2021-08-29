@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "charcoal_from_chunks",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      },
+      {
+        "value": "CUSTOM:CharcoalChunk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.COAL#1"
+    },
+    "name": "charcoal_from_chunks",
+    "namespace": "mod"
+  }
+}

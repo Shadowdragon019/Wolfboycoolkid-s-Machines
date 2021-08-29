@@ -1,0 +1,13 @@
+{
+  "group": "quartz_fragment",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_automation:quartz_fragment",
+    "count": 5
+  }
+}
