@@ -1,0 +1,33 @@
+{
+  "group": "smooth_stone_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "4": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "6": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "7": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "8": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "wolfboycoolkids_machines:smooth_stone_stairs",
+    "count": 4
+  }
+}

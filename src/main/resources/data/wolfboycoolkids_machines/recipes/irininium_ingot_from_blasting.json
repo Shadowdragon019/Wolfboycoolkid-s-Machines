@@ -1,0 +1,12 @@
+{
+  "group": "irininium_ingot",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "wolfboycoolkids_machines:incomplete_irininium_ingot"
+  },
+  "result": {
+    "item": "wolfboycoolkids_machines:irininium_ingot"
+  }
+}

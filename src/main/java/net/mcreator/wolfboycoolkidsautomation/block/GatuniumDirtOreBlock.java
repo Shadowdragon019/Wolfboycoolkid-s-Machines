@@ -34,15 +34,15 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
 import java.util.Random;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class GatuniumDirtOreBlock extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:gatunium_dirt_ore")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class GatuniumDirtOreBlock extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:gatunium_dirt_ore")
 	public static final Block block = null;
-	public GatuniumDirtOreBlock(WolfboycoolkidsAutomationModElements instance) {
+	public GatuniumDirtOreBlock(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 1);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -97,7 +97,7 @@ public class GatuniumDirtOreBlock extends WolfboycoolkidsAutomationModElements.M
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("wolfboycoolkids_automation:gatunium_dirt_ore_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("wolfboycoolkids_machines:gatunium_dirt_ore_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -111,10 +111,10 @@ public class GatuniumDirtOreBlock extends WolfboycoolkidsAutomationModElements.M
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 10)).range(128)
-					.square().func_242731_b(4);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(128)
+					.square().func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("gatunium_dirt_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("wolfboycoolkids_automation:gatunium_dirt_ore"),
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("wolfboycoolkids_machines:gatunium_dirt_ore"),
 					configuredFeature);
 		}
 	}

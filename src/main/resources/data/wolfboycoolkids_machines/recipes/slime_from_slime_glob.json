@@ -1,0 +1,42 @@
+{
+  "group": "slime_ball",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "1": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "2": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "3": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "4": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "5": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "6": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "7": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    },
+    "8": {
+      "item": "wolfboycoolkids_machines:slime_glob"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

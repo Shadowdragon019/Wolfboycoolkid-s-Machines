@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wolfboycoolkids_machines:block/tree_chopper"
+    },
+    "facing=east": {
+      "model": "wolfboycoolkids_machines:block/tree_chopper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wolfboycoolkids_machines:block/tree_chopper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wolfboycoolkids_machines:block/tree_chopper",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "wolfboycoolkids_machines:block/tree_chopper",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "wolfboycoolkids_machines:block/tree_chopper",
+      "x": 90
+    }
+  }
+}

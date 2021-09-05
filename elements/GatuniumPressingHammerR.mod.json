@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "gatunium_pressing_hammer",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GatuniumIngot"
+      },
+      {
+        "value": "CUSTOM:GatuniumIngot"
+      },
+      {
+        "value": "CUSTOM:GatuniumIngot"
+      },
+      {
+        "value": "CUSTOM:GatuniumIngot"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "CUSTOM:GatuniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PressingHammer"
+    },
+    "name": "gatunium_pressing_hammer",
+    "namespace": "mod"
+  }
+}

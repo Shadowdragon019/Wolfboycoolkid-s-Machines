@@ -1,0 +1,34 @@
+{
+  "group": "charcoal_from_chunks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    },
+    {
+      "item": "wolfboycoolkids_machines:charcoal_chunk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  }
+}

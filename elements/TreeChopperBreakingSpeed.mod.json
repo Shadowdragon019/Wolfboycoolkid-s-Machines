@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Tree Chopper Breaking Speed",
+    "description": "How fast in ticks blocks broken by the Tree Chopper will break",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 20
+  }
+}

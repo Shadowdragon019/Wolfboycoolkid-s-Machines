@@ -1,0 +1,7 @@
+{
+  "parent": "wolfboycoolkids_machines:custom/gatunium_pressing_hammer_model",
+  "textures": {
+    "gatunium_pressing_hammer": "wolfboycoolkids_machines:blocks/gatunium_pressing_hammer",
+    "particle": "wolfboycoolkids_machines:items/gatunium_pressing_hammer"
+  }
+}

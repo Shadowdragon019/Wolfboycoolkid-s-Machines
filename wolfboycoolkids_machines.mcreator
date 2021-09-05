@@ -1,0 +1,1342 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "GatuniumDirtOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_dirt_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "GatuniumGravelOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_gravel_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "GatuniumNugget",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_nugget",
+      "path": "~/Items"
+    },
+    {
+      "name": "GatuniumDirtOreLootTable",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_dirt_ore_loot_table",
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "GatuniumGravelOreLootTable",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_gravel_ore_loot_table",
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "GatuniumDigLootTable",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_dig_loot_table",
+      "path": "~/Loot Tables/Other"
+    },
+    {
+      "name": "DigBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dig_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ForgeOresItem",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_ores_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "ForgeGatuniumOreBlock",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_gatunium_ore_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "ForgeOresBlock",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_ores_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "ForgeGatuniumOreItem",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_gatunium_ore_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "CharcoalChunk",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_chunk",
+      "path": "~/Items"
+    },
+    {
+      "name": "CoalChunk",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_chunk",
+      "path": "~/Items"
+    },
+    {
+      "name": "DiamondShard",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_shard",
+      "path": "~/Items"
+    },
+    {
+      "name": "EmeraldShard",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shard",
+      "path": "~/Items"
+    },
+    {
+      "name": "LapisLazuliLump",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_lazuli_lump",
+      "path": "~/Items"
+    },
+    {
+      "name": "QuartzFragment",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartz_fragment",
+      "path": "~/Items"
+    },
+    {
+      "name": "RedstoneGranules",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_granules",
+      "path": "~/Items"
+    },
+    {
+      "name": "GatuniumIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "CharcoalChunkR",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_chunk_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "CoalChunkR",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_chunk_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "DiamondShardR",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_shard_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "EmeraldShardR",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shard_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "LapisLazuliLumpR",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_lazuli_lump_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "QuartzFragmentR",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartz_fragment_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "RedstoneGranulesR",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_granules_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "CharcoalFromChunks",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_from_chunks",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "CoalFromChunks",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_from_chunks",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "DiamonFromShards",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamon_from_shards",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "EmeraldFromShards",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_from_shards",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "LapisLazuliFromLumps",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_lazuli_from_lumps",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "QuartzFromQuartzFragment",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartz_from_quartz_fragment",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "RedstoneFromRedstoneGranules",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_from_redstone_granules",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "CharcoalChunkFuel",
+      "type": "fuel",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_chunk_fuel",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "CoalChunkFuel",
+      "type": "fuel",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_chunk_fuel",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "GatuniumNuggetR",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_nugget_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "GatuniumIngotR",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_ingot_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "GatuniumnFromSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatuniumn_from_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "GatuniumSandOre",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_sand_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "GatuniumRedSandOre",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_red_sand_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "GatuniumSandOreLootTable",
+      "type": "loottable",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_sand_ore_loot_table",
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "GatuniumRedSandOreLootTable",
+      "type": "loottable",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_red_sand_ore_loot_table",
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "RawGatunium",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gatunium",
+      "path": "~/Items"
+    },
+    {
+      "name": "GatuniumFromBlasting",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_from_blasting",
+      "path": "~/Recipes/Blasting"
+    },
+    {
+      "name": "SlimeGlob",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_glob",
+      "path": "~/Items"
+    },
+    {
+      "name": "SlimeGlobR",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_glob_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "SlimeFromSlimeGlob",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_from_slime_glob",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "SlimyPaper",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimy_paper",
+      "path": "~/Items"
+    },
+    {
+      "name": "SlimyPaperR",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimy_paper_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "IncompleteIrininiumIngot",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "incomplete_irininium_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "IncompleteIrininiumIngotR",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "incomplete_irininium_ingot_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "Magmator",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "magmator",
+      "path": "~/Blocks/Machines"
+    },
+    {
+      "name": "MagmatorGUI",
+      "type": "gui",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmator_gui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "MagmatorR",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmator_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "IrininiumIngot",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "IrininiumIngotSmelting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_ingot_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "IrininiumIngotBlasting",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_ingot_blasting",
+      "path": "~/Recipes/Blasting"
+    },
+    {
+      "name": "ForgeIngotsItem",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_ingots_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "ForgeIngotsGatuniumItems",
+      "type": "tag",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_ingots_gatunium_items",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "ForgeIngotsIrininiumItems",
+      "type": "tag",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_ingots_irininium_items",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "GatuniumBlock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IrininiumBlock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RawGatuniumBlock",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gatunium_block",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "RawGatuniumBlockR",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gatunium_block_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "RawGatuniumFromBlock",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gatunium_from_block",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "GatuniumBlockR",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_block_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "GatuniumIronFromBlock",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_iron_from_block",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "TreeChopper",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_chopper",
+      "path": "~/Blocks/Machines"
+    },
+    {
+      "name": "TreeChopperUpdateTick",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_chopper_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BreakWoodBlocksNearMe",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "break_wood_blocks_near_me",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ForgeWoodLikeItem",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "forge_wood_like_item",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TreeChopperBreakingSpeed",
+      "type": "gamerule",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treeChopperBreakingSpeed",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Gamerules"
+    },
+    {
+      "name": "PressingHammer",
+      "type": "rangeditem",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gatunium_pressing_hammer",
+      "path": "~/Items"
+    },
+    {
+      "name": "PressedIronImbuedLapisLazuliBlock",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pressed_iron_imbued_lapis_lazuli_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GatuniumPressingHammerR",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "gatunium_pressing_hammer_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "PressingHammerBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pressing_hammer_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Returnium",
+      "type": "potioneffect",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returnium",
+      "path": "~/Potions/Effects"
+    },
+    {
+      "name": "ReturniumEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returnium_effect_startedapplied",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PotionOfReturnium",
+      "type": "potion",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_returnium",
+      "path": "~/Potions/Items"
+    },
+    {
+      "name": "BrewingTest",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brewing_test",
+      "path": "~/Recipes/Brewing"
+    },
+    {
+      "name": "IrininiumShovel",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_shovel",
+      "path": "~/Items"
+    },
+    {
+      "name": "IrininiumPickaxe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_pickaxe",
+      "path": "~/Items"
+    },
+    {
+      "name": "IrininiumAxe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_axe",
+      "path": "~/Items"
+    },
+    {
+      "name": "IrininiumHoe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_hoe",
+      "path": "~/Items"
+    },
+    {
+      "name": "IrininiumSword",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_sword",
+      "path": "~/Items"
+    },
+    {
+      "name": "IronImbuedLapisLazuliIngot",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_imbued_lapis_lazuli_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "IronImbuedLapisLazuliSheet",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_imbued_lapis_lazuli_sheet",
+      "path": "~/Items"
+    },
+    {
+      "name": "IronImbuedLapisLazuliRod",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_imbued_lapis_lazuli_rod",
+      "path": "~/Items"
+    },
+    {
+      "name": "ForgeStorageBlocksBlock",
+      "type": "tag",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_storage_blocks_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "ForgStorageBlocksItem",
+      "type": "tag",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forg_storage_blocks_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "ForgeStorageBlocksGatuniumBlock",
+      "type": "tag",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_storage_blocks_gatunium_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "ForgeStorageBlocksIrininiumBlock",
+      "type": "tag",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_storage_blocks_irininium_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "MinecaftBeaconBaseBlocksBlock",
+      "type": "tag",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecaft_beacon_base_blocks_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "ForgeStorageBlocksGatuniumItem",
+      "type": "tag",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_storage_blocks_gatunium_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "ForgeStorageBlocksIrininiumItem",
+      "type": "tag",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_storage_blocks_irininium_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "IrininiumPressingHammer",
+      "type": "rangeditem",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irininium_pressing_hammer",
+      "path": "~/Items"
+    },
+    {
+      "name": "ForgePressingHammerItem",
+      "type": "tag",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_pressing_hammer_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "SmoothStoneStairs",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "smooth_stone_stairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SmoothStoneStairsR",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_stone_stairs_r",
+      "path": "~/Recipes/Crafting Table"
+    },
+    {
+      "name": "SmoothStoneStairsCutting",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_stone_stairs_cutting",
+      "path": "~/Recipes/Cutting"
+    },
+    {
+      "name": "StairsMinecraftBlock",
+      "type": "tag",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stairs_minecraft_block",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "StairsMinecraftItem",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stairs_minecraft_item",
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "PresserHead",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_head",
+      "path": "~/Blocks/Machines"
+    },
+    {
+      "name": "PresserHeadPressing",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_head_pressing",
+      "path": "~/Blocks/Machines"
+    },
+    {
+      "name": "PresserArm",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_arm",
+      "path": "~/Blocks/Machines"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.wolfboycoolkids_machines.gatunium_block": "Block of Gatunium",
+      "item.wolfboycoolkids_automation.quartz_fragment": "Nether Quartz Fragment",
+      "item.wolfboycoolkids_machines.irininium_axe": "Irininium Axe",
+      "item.wolfboycoolkids_machines.gatunium_pressing_hammer": "Gatunium Pressing Hammer",
+      "item.wolfboycoolkids_machines.incomplete_irininium_ingot": "Incomplete Irininium Ingot",
+      "block.wolfboycoolkids_machines.gatunium_gravel_ore": "Gatunium Gravel Ore",
+      "block.wolfboycoolkids_machines.magmator": "Magmator",
+      "item.wolfboycoolkids_automation.slimy_paper": "Slimy Paper",
+      "block.wolfboycoolkids_machines.gatunium_red_sand_ore": "Gatunium Red Sand Ore",
+      "item.wolfboycoolkids_machines.coal_chunk": "Coal Chunk",
+      "item.wolfboycoolkids_machines.diamond_shard": "Diamond Shard",
+      "item.wolfboycoolkids_machines.raw_gatunium": "Raw Gatunium",
+      "gamerule.treeChopperBreakingSpeed.description": "How fast in ticks blocks broken by the Tree Chopper will break",
+      "item.wolfboycoolkids_machines.iron_imbued_lapis_lazuli_sheet": "Iron Imbued Lapis Lazuli Sheet",
+      "item.wolfboycoolkids_automation.lapis_lazuli_lump": "Lapis Lazuli Lump",
+      "block.wolfboycoolkids_machines.irininium_block": "Block of Irininium",
+      "block.wolfboycoolkids_machines.raw_gatunium_block": "Raw Gatunium Block",
+      "item.wolfboycoolkids_machines.charcoal_chunk": "Charcoal Chunk",
+      "item.wolfboycoolkids_automation.slime_glob": "Glob of Slime",
+      "item.wolfboycoolkids_machines.redstone_granules": "Redstone Granules",
+      "item.wolfboycoolkids_machines.slimy_paper": "Slimy Paper",
+      "effect.returnium": "Returnium",
+      "item.wolfboycoolkids_automation.incomplete_irininium_ingot": "Incomplete Irininium Ingot",
+      "item.wolfboycoolkids_machines.iron_imbued_lapis_lazuli_rod": "Iron Imbued Lapis Lazuli Rod",
+      "block.wolfboycoolkids_machines.gatunium_sand_ore": "Gatunium Sand Ore",
+      "item.wolfboycoolkids_automation.coal_chunk": "Coal Chunk",
+      "block.wolfboycoolkids_machines.pressed_iron_imbued_lapis_lazuli_block": "Pressed Iron Imbued Lapis Lazuli Block",
+      "item.wolfboycoolkids_automation.raw_gatunium": "Raw Gatunium",
+      "item.wolfboycoolkids_automation.gatunium_ingot": "Gatunium Ingot",
+      "block.wolfboycoolkids_automation.gatunium_red_sand_ore": "Gatunium Red Sand Ore",
+      "block.wolfboycoolkids_automation.magmator": "Magmator",
+      "gamerule.treeChopperBreakingSpeed": "Tree Chopper Breaking Speed",
+      "item.wolfboycoolkids_machines.irininium_hoe": "Irininium Hoe",
+      "block.wolfboycoolkids_machines.presser_head_pressing": "Presser Head",
+      "item.wolfboycoolkids_automation.diamond_shard": "Diamond Shard",
+      "item.wolfboycoolkids_machines.irininium_pressing_hammer": "Irininium Pressing Hammer",
+      "item.minecraft.lingering_potion.effect.potion_of_returnium": "Lingering Potion Of Returnium",
+      "item.wolfboycoolkids_machines.irininium_ingot": "Irininium Ingot",
+      "block.wolfboycoolkids_automation.gatunium_dirt_ore": "Gatunium Dirt Ore",
+      "item.wolfboycoolkids_automation.gatunium_nugget": "Gatunium Nugget",
+      "item.wolfboycoolkids_automation.emerald_shard": "Emerald Shard",
+      "item.wolfboycoolkids_automation.redstone_granules": "Redstone Granules",
+      "item.wolfboycoolkids_machines.irininium_pickaxe": "Irininium Pickaxe",
+      "item.wolfboycoolkids_machines.slime_glob": "Glob of Slime",
+      "block.wolfboycoolkids_machines.presser_head": "Presser Head",
+      "item.wolfboycoolkids_automation.charcoal_chunk": "Charcoal Chunk",
+      "item.wolfboycoolkids_machines.gatunium_nugget": "Gatunium Nugget",
+      "block.wolfboycoolkids_machines.gatunium_dirt_ore": "Gatunium Dirt Ore",
+      "item.wolfboycoolkids_machines.quartz_fragment": "Nether Quartz Fragment",
+      "block.wolfboycoolkids_machines.smooth_stone_stairs": "Smooth Stone Stairs",
+      "item.minecraft.tipped_arrow.effect.potion_of_returnium": "Arrow Of Returnium",
+      "block.wolfboycoolkids_machines.presser_arm": "Presser Head",
+      "item.wolfboycoolkids_machines.emerald_shard": "Emerald Shard",
+      "item.minecraft.splash_potion.effect.potion_of_returnium": "Splash Potion Of Returnium",
+      "block.wolfboycoolkids_machines.tree_chopper": "Tree Chopper",
+      "item.wolfboycoolkids_machines.lapis_lazuli_lump": "Lapis Lazuli Lump",
+      "block.wolfboycoolkids_automation.gatunium_gravel_ore": "Gatunium Gravel Ore",
+      "item.wolfboycoolkids_machines.iron_imbued_lapis_lazuli_ingot": "Iron Imbued Lapis Lazuli Ingot",
+      "item.wolfboycoolkids_machines.gatunium_ingot": "Gatunium Ingot",
+      "item.wolfboycoolkids_machines.irininium_sword": "Irininium Sword",
+      "block.wolfboycoolkids_automation.gatunium_sand_ore": "Gatunium Sand Ore",
+      "item.minecraft.potion.effect.potion_of_returnium": "Potion Of Returnium",
+      "item.wolfboycoolkids_machines.irininium_shovel": "Irininium Shovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "Machines",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tags",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Entities",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Crafting Table",
+            "children": []
+          },
+          {
+            "name": "Smelting",
+            "children": []
+          },
+          {
+            "name": "Brewing",
+            "children": []
+          },
+          {
+            "name": "Blasting",
+            "children": []
+          },
+          {
+            "name": "Cutting",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Fuel",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Gamerules",
+        "children": []
+      },
+      {
+        "name": "Potions",
+        "children": [
+          {
+            "name": "Effects",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wolfboycoolkids_machines",
+    "modName": "Wolfboycoolkid\u0027s Machines",
+    "version": "1.16.5-0.1.0",
+    "author": "Shadowdragon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items",
+      "crafttweaker"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wolfboycoolkidsautomation",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100235315
+}

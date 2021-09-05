@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class RawGatuniumItem extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:raw_gatunium")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class RawGatuniumItem extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:raw_gatunium")
 	public static final Item block = null;
-	public RawGatuniumItem(WolfboycoolkidsAutomationModElements instance) {
+	public RawGatuniumItem(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 43);
 	}
 

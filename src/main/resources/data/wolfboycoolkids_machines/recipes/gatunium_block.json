@@ -1,0 +1,42 @@
+{
+  "group": "wolfboycoolkids_machines",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "1": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "2": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "3": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "4": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "5": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "6": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "7": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    },
+    "8": {
+      "item": "wolfboycoolkids_machines:gatunium_ingot"
+    }
+  },
+  "result": {
+    "item": "wolfboycoolkids_machines:gatunium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "slime_ball",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SLIME_BALL"
+    },
+    "name": "slime_from_slime_glob",
+    "namespace": "mod"
+  }
+}

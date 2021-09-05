@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wolfboycoolkids_machines:blocks/raw_gatunium_block",
+    "particle": "wolfboycoolkids_machines:blocks/raw_gatunium_block"
+  }
+}

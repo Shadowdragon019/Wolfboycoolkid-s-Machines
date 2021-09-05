@@ -145,9 +145,9 @@
         "value": "Blocks.DIRT#2"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 10,
-    "minGenerateHeight": 48,
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 32,
     "maxGenerateHeight": 128
   }
 }

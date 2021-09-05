@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class RedstoneGranulesItem extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:redstone_granules")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class RedstoneGranulesItem extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:redstone_granules")
 	public static final Item block = null;
-	public RedstoneGranulesItem(WolfboycoolkidsAutomationModElements instance) {
+	public RedstoneGranulesItem(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 18);
 	}
 

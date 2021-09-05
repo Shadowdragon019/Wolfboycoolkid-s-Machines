@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:GatuniumBlock"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:GatuniumBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "storage_blocks/gatunium",
+    "namespace": "forge"
+  }
+}

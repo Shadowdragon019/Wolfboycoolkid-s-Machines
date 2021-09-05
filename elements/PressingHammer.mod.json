@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "gatunium_pressing_hammer",
+    "customModelName": "gatunium_pressing_hammer_model:default",
+    "name": "Gatunium Pressing Hammer",
+    "specialInfo": [
+      "Throw at blocks to press them into alloys"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 64,
+    "actionSound": {
+      "value": "entity.snowman.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 9.0,
+    "bulletPower": 0.3,
+    "bulletDamage": 9.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:PressingHammer"
+    },
+    "bulletModel": "Modelgatunium_pressing_hammer_thrown_model",
+    "customBulletModelTexture": "gatunium_pressing_hammer_thrown.png",
+    "onBulletHitsBlock": {
+      "name": "PressingHammerBulletHitsBlock"
+    }
+  }
+}

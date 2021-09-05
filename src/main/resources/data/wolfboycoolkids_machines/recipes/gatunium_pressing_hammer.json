@@ -1,0 +1,27 @@
+{
+  "group": "gatunium_pressing_hammer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "020",
+    "212",
+    " 3 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/gatunium"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "forge:storage_blocks/gatunium"
+    },
+    "3": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "wolfboycoolkids_machines:gatunium_pressing_hammer",
+    "count": 1
+  }
+}

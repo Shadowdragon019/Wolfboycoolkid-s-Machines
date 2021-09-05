@@ -1,0 +1,19 @@
+{
+  "group": "redstone_from_redstone_granules",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wolfboycoolkids_machines:redstone_granules"
+    },
+    {
+      "item": "wolfboycoolkids_machines:redstone_granules"
+    },
+    {
+      "item": "wolfboycoolkids_machines:redstone_granules"
+    }
+  ],
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 1
+  }
+}

@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class QuartzFragmentItem extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:quartz_fragment")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class QuartzFragmentItem extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:quartz_fragment")
 	public static final Item block = null;
-	public QuartzFragmentItem(WolfboycoolkidsAutomationModElements instance) {
+	public QuartzFragmentItem(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 17);
 	}
 

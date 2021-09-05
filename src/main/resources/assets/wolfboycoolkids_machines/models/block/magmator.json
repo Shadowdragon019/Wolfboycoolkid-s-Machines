@@ -1,0 +1,11 @@
+{
+  "parent": "wolfboycoolkids_machines:custom/magmator",
+  "textures": {
+    "all": "wolfboycoolkids_machines:blocks/magmator_front",
+    "particle": "wolfboycoolkids_machines:blocks/magmator_front",
+    "magmator_side": "wolfboycoolkids_machines:blocks/magmator_side",
+    "magmator_front": "wolfboycoolkids_machines:blocks/magmator_front",
+    "magma": "minecraft:block/magma",
+    "magmator_top": "wolfboycoolkids_machines:blocks/magmator_top"
+  }
+}

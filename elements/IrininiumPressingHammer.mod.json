@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "irininium_pressing_hammer",
+    "customModelName": "Normal",
+    "name": "Irininium Pressing Hammer",
+    "specialInfo": [
+      "Throw at blocks to press them into alloys"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 2365,
+    "actionSound": {
+      "value": "entity.snowman.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.3,
+    "bulletDamage": 9.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:IrininiumPressingHammer"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "PressingHammerBulletHitsBlock"
+    }
+  }
+}

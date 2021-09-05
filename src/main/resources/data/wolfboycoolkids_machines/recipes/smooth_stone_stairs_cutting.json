@@ -1,0 +1,9 @@
+{
+  "group": "smooth_stone_stairs",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:smooth_stone"
+  },
+  "result": "wolfboycoolkids_machines:smooth_stone_stairs"
+}

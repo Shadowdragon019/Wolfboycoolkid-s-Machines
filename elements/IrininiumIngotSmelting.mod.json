@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 2400,
+    "recipeRetstackSize": 1,
+    "group": "irininium_ingot",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:IncompleteIrininiumIngot"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:IrininiumIngot"
+    },
+    "name": "irininium_ingot_from_smelting",
+    "namespace": "mod"
+  }
+}

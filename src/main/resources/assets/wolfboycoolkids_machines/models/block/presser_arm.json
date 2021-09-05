@@ -1,0 +1,8 @@
+{
+  "parent": "wolfboycoolkids_machines:custom/pressing_arm",
+  "textures": {
+    "all": "wolfboycoolkids_machines:blocks/smooth_stone_stairs_left",
+    "particle": "wolfboycoolkids_machines:blocks/smooth_stone_stairs_left",
+    "0": "wolfboycoolkids_machines:blocks/gatunium_block"
+  }
+}

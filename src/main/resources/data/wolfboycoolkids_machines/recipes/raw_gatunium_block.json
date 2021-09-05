@@ -1,0 +1,42 @@
+{
+  "group": "raw_gatunium_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "1": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "2": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "3": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "4": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "5": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "6": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "7": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    },
+    "8": {
+      "item": "wolfboycoolkids_machines:raw_gatunium"
+    }
+  },
+  "result": {
+    "item": "wolfboycoolkids_machines:raw_gatunium_block",
+    "count": 1
+  }
+}

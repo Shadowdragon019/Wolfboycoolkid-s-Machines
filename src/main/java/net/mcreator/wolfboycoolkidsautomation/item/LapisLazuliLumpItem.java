@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class LapisLazuliLumpItem extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:lapis_lazuli_lump")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class LapisLazuliLumpItem extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:lapis_lazuli_lump")
 	public static final Item block = null;
-	public LapisLazuliLumpItem(WolfboycoolkidsAutomationModElements instance) {
+	public LapisLazuliLumpItem(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 16);
 	}
 

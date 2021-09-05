@@ -16,9 +16,9 @@
             "item": {
               "value": "CUSTOM:GatuniumNugget"
             },
-            "weight": 1,
-            "minCount": 7,
-            "maxCount": 13,
+            "weight": 4,
+            "minCount": 3,
+            "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,

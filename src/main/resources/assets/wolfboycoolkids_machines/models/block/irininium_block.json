@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wolfboycoolkids_machines:blocks/need_texture_texture_1",
+    "particle": "wolfboycoolkids_machines:blocks/need_texture_texture_1"
+  }
+}

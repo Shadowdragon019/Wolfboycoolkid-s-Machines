@@ -4,13 +4,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.GameType;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.vector.Vector2f;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
 import net.minecraft.item.ShovelItem;
@@ -21,8 +16,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.command.ICommandSource;
-import net.minecraft.command.CommandSource;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
 import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
 import net.minecraft.client.Minecraft;
@@ -34,7 +27,7 @@ import net.mcreator.wolfboycoolkidsautomation.block.GatuniumSandOreBlock;
 import net.mcreator.wolfboycoolkidsautomation.block.GatuniumRedSandOreBlock;
 import net.mcreator.wolfboycoolkidsautomation.block.GatuniumGravelOreBlock;
 import net.mcreator.wolfboycoolkidsautomation.block.GatuniumDirtOreBlock;
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationMod;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesMod;
 
 import java.util.Random;
 import java.util.Map;
@@ -69,27 +62,27 @@ public class DigBlockProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				WolfboycoolkidsAutomationMod.LOGGER.warn("Failed to load dependency entity for procedure DigBlock!");
+				WolfboycoolkidsMachinesMod.LOGGER.warn("Failed to load dependency entity for procedure DigBlock!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				WolfboycoolkidsAutomationMod.LOGGER.warn("Failed to load dependency x for procedure DigBlock!");
+				WolfboycoolkidsMachinesMod.LOGGER.warn("Failed to load dependency x for procedure DigBlock!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				WolfboycoolkidsAutomationMod.LOGGER.warn("Failed to load dependency y for procedure DigBlock!");
+				WolfboycoolkidsMachinesMod.LOGGER.warn("Failed to load dependency y for procedure DigBlock!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				WolfboycoolkidsAutomationMod.LOGGER.warn("Failed to load dependency z for procedure DigBlock!");
+				WolfboycoolkidsMachinesMod.LOGGER.warn("Failed to load dependency z for procedure DigBlock!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				WolfboycoolkidsAutomationMod.LOGGER.warn("Failed to load dependency world for procedure DigBlock!");
+				WolfboycoolkidsMachinesMod.LOGGER.warn("Failed to load dependency world for procedure DigBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -101,8 +94,8 @@ public class DigBlockProcedure {
 		boolean gatuniumLooted = false;
 		gatuniumLooted = (boolean) (false);
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() instanceof ShovelItem)) {
-			fortuneLevel = (double) ((EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE,
-					((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))) + 1);
+			fortuneLevel = (double) (((EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE,
+					((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))) * 0.66) + 1);
 			if ((GatuniumDirtOreBlock.block == (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock())) {
 				gatuniumLooted = (boolean) (true);
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.COARSE_DIRT.getDefaultState(), 3);
@@ -121,12 +114,13 @@ public class DigBlockProcedure {
 			world.playEvent(2001, new BlockPos((int) x, (int) y, (int) z),
 					Block.getStateId((world.getBlockState(new BlockPos((int) x, (int) y, (int) z)))));
 			for (int index0 = 0; index0 < (int) (fortuneLevel); index0++) {
-				if (world instanceof ServerWorld) {
-					((World) world).getServer().getCommandManager().handleCommand(
-							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
-									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-							(("loot spawn ") + "" + (x) + "" + (" ") + "" + (y) + "" + (" ") + "" + (z) + ""
-									+ (" loot wolfboycoolkids_automation:blocks/gatunium_dig")));
+				{
+					Entity _ent = entity;
+					if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+						_ent.world.getServer().getCommandManager().handleCommand(
+								_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+								"loot give @s loot wolfboycoolkids_machines:blocks/gatunium_dig");
+					}
 				}
 			}
 			if ((!(new Object() {

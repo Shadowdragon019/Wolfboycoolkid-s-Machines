@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="wolfboycoolkids_automation"
-version="1.0.0"
-displayName="Wolfboycoolkid's Automation"
+modId="wolfboycoolkids_machines"
+version="1.16.5-0.1.0"
+displayName="Wolfboycoolkid's Machines"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Oskar W. Heineck, MCreator"
+authors="Shadowdragon, MCreator"
 
-[[dependencies.wolfboycoolkids_automation]]
+[[dependencies.wolfboycoolkids_machines]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
@@ -19,13 +19,13 @@ authors="Oskar W. Heineck, MCreator"
 
 
 
-[[dependencies.wolfboycoolkids_automation]]
+[[dependencies.wolfboycoolkids_machines]]
     modId="just_enough_items"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.wolfboycoolkids_automation]]
+[[dependencies.wolfboycoolkids_machines]]
     modId="crafttweaker"
     mandatory=false
     versionRange="[0,)"

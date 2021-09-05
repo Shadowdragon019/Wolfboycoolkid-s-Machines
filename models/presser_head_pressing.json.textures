@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "smooth_stone_slab_side": "smooth_stone_slab_right",
+        "smooth_stone": "smooth_stone_stairs_left"
+      },
+      "name": "default"
+    }
+  }
+}

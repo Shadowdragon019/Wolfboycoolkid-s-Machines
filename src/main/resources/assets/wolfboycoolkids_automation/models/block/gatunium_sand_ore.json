@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wolfboycoolkids_automation:blocks/gatunium_sand_ore",
-    "particle": "wolfboycoolkids_automation:blocks/gatunium_sand_ore"
-  }
-}

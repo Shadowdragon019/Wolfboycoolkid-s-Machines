@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 600,
+    "recipeRetstackSize": 1,
+    "group": "irininium_ingot",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:IncompleteIrininiumIngot"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:IrininiumIngot"
+    },
+    "name": "irininium_ingot_from_blasting",
+    "namespace": "mod"
+  }
+}

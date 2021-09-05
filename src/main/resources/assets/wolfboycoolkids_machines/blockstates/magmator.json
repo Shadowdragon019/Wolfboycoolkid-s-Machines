@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wolfboycoolkids_machines:block/magmator"
+    },
+    "facing=east": {
+      "model": "wolfboycoolkids_machines:block/magmator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wolfboycoolkids_machines:block/magmator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wolfboycoolkids_machines:block/magmator",
+      "y": 270
+    }
+  }
+}

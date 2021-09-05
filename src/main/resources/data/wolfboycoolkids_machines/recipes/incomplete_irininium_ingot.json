@@ -1,0 +1,24 @@
+{
+  "group": "incomplete_irininium_ingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/gatunium"
+    },
+    "1": {
+      "item": "wolfboycoolkids_machines:slimy_paper"
+    },
+    "2": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "wolfboycoolkids_machines:incomplete_irininium_ingot",
+    "count": 1
+  }
+}

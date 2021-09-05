@@ -1,0 +1,8 @@
+{
+  "parent": "wolfboycoolkids_machines:custom/pressed_iron_imbued_lapis_lazuli_block",
+  "textures": {
+    "all": "wolfboycoolkids_machines:blocks/pressed_iron_imbued_lapis_lazuli_block",
+    "particle": "wolfboycoolkids_machines:blocks/pressed_iron_imbued_lapis_lazuli_block",
+    "0": "wolfboycoolkids_machines:blocks/pressed_iron_imbued_lapis_lazuli_block"
+  }
+}

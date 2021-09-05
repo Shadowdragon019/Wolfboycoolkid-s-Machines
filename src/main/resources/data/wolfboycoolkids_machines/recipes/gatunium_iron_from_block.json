@@ -1,0 +1,13 @@
+{
+  "group": "gatunium_iron",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wolfboycoolkids_machines:gatunium_block"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_machines:gatunium_ingot",
+    "count": 9
+  }
+}

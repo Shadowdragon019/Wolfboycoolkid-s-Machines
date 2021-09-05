@@ -1,0 +1,13 @@
+{
+  "group": "slime_glob",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:slimeballs"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_machines:slime_glob",
+    "count": 9
+  }
+}

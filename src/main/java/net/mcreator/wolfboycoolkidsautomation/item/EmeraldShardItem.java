@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class EmeraldShardItem extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:emerald_shard")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class EmeraldShardItem extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:emerald_shard")
 	public static final Item block = null;
-	public EmeraldShardItem(WolfboycoolkidsAutomationModElements instance) {
+	public EmeraldShardItem(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 15);
 	}
 

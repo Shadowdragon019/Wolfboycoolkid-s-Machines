@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsAutomationModElements;
+import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesModElements;
 
-@WolfboycoolkidsAutomationModElements.ModElement.Tag
-public class CoalChunkItem extends WolfboycoolkidsAutomationModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_automation:coal_chunk")
+@WolfboycoolkidsMachinesModElements.ModElement.Tag
+public class CoalChunkItem extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:coal_chunk")
 	public static final Item block = null;
-	public CoalChunkItem(WolfboycoolkidsAutomationModElements instance) {
+	public CoalChunkItem(WolfboycoolkidsMachinesModElements instance) {
 		super(instance, 13);
 	}
 

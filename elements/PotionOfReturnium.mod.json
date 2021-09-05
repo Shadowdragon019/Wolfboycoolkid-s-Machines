@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion Of Returnium",
+    "splashName": "Splash Potion Of Returnium",
+    "lingeringName": "Lingering Potion Of Returnium",
+    "arrowName": "Arrow Of Returnium",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Returnium"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

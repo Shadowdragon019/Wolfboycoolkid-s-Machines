@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wolfboycoolkids_machines:blocks/need_texture_texture_3",
+    "up": "wolfboycoolkids_machines:blocks/need_texture_texture_3",
+    "north": "wolfboycoolkids_machines:blocks/need_texture_texture_2",
+    "east": "wolfboycoolkids_machines:blocks/need_texture_texture_3",
+    "south": "wolfboycoolkids_machines:blocks/need_texture_texture_3",
+    "west": "wolfboycoolkids_machines:blocks/need_texture_texture_3",
+    "particle": "wolfboycoolkids_machines:blocks/need_texture_texture_3"
+  }
+}

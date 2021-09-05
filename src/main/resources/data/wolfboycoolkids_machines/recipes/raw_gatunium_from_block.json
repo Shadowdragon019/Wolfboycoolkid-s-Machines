@@ -1,0 +1,13 @@
+{
+  "group": "raw_gatunium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wolfboycoolkids_machines:raw_gatunium_block"
+    }
+  ],
+  "result": {
+    "item": "wolfboycoolkids_machines:raw_gatunium",
+    "count": 9
+  }
+}

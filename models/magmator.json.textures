@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "magmator_side": "magmator_side",
+        "magmator_front": "magmator_front",
+        "magma": "gatunium_sand_ore",
+        "magmator_top": "magmator_top"
+      },
+      "name": "default"
+    }
+  }
+}

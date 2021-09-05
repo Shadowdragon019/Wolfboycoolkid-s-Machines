@@ -1,0 +1,10 @@
+{
+  "parent": "wolfboycoolkids_machines:custom/presser_head",
+  "textures": {
+    "all": "wolfboycoolkids_machines:blocks/smooth_stone_slab_right",
+    "particle": "wolfboycoolkids_machines:blocks/smooth_stone_slab_right",
+    "smooth_stone_slab_side": "wolfboycoolkids_machines:blocks/smooth_stone_slab_right",
+    "gatunium_block": "wolfboycoolkids_machines:blocks/gatunium_block",
+    "smooth_stone": "wolfboycoolkids_machines:blocks/smooth_stone_stairs_left"
+  }
+}

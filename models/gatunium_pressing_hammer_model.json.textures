@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gatunium_pressing_hammer": "gatunium_pressing_hammer"
+      },
+      "name": "default"
+    }
+  }
+}
