@@ -12,9 +12,10 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.entity.item.FallingBlockEntity;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
 
+import net.mcreator.wolfboycoolkidsautomation.block.PressedObsidianBlock;
 import net.mcreator.wolfboycoolkidsautomation.block.PressedIronImbuedLapisLazuliBlockBlock;
+import net.mcreator.wolfboycoolkidsautomation.block.ObsidianReinforcedNetherBricksBlock;
 import net.mcreator.wolfboycoolkidsautomation.WolfboycoolkidsMachinesMod;
 
 import java.util.Map;
@@ -47,33 +48,46 @@ public class PressingHammerBulletHitsBlockProcedure {
 		IWorld world = (IWorld) dependencies.get("world");
 		boolean pressSucces = false;
 		BlockState success1 = Blocks.AIR.getDefaultState();
+		double yOffset = 0;
+		yOffset = (double) 0;
 		if (((Blocks.IRON_TRAPDOOR == (world.getBlockState(new BlockPos((int) (Math.floor(x)), (int) (Math.floor(y)), (int) (Math.floor(z)))))
 				.getBlock())
 				&& (BlockTags.getCollection().getTagByID(new ResourceLocation(("forge:storage_blocks/lapis").toLowerCase(java.util.Locale.ENGLISH)))
 						.contains((world.getBlockState(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 1), (int) (Math.floor(z)))))
 								.getBlock())))) {
-			pressSucces = (boolean) (true);
-			world.setBlockState(new BlockPos((int) (Math.floor(x)), (int) (Math.floor(y)), (int) (Math.floor(z))), Blocks.AIR.getDefaultState(), 3);
-			world.setBlockState(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 1), (int) (Math.floor(z))), Blocks.AIR.getDefaultState(),
-					3);
 			success1 = PressedIronImbuedLapisLazuliBlockBlock.block.getDefaultState();
+			pressSucces = (boolean) (true);
+		} else if (((Blocks.OBSIDIAN == (world.getBlockState(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 1), (int) (Math.floor(z)))))
+				.getBlock())
+				&& (Blocks.OBSIDIAN == (world.getBlockState(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 2), (int) (Math.floor(z)))))
+						.getBlock()))) {
+			yOffset = (double) (-1);
+			success1 = PressedObsidianBlock.block.getDefaultState();
+			pressSucces = (boolean) (true);
+		} else if (((PressedObsidianBlock.block == (world
+				.getBlockState(new BlockPos((int) (Math.floor(x)), (int) (Math.floor(y)), (int) (Math.floor(z))))).getBlock())
+				&& (Blocks.NETHER_BRICKS == (world
+						.getBlockState(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 1), (int) (Math.floor(z))))).getBlock()))) {
+			success1 = ObsidianReinforcedNetherBricksBlock.block.getDefaultState();
+			pressSucces = (boolean) (true);
+		}
+		if (pressSucces) {
+			world.destroyBlock(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) + yOffset), (int) (Math.floor(z))), false);
+			world.destroyBlock(new BlockPos((int) (Math.floor(x)), (int) (((Math.floor(y)) - 1) + yOffset), (int) (Math.floor(z))), false);
 			if (world instanceof ServerWorld) {
-				FallingBlockEntity blockToSpawn = new FallingBlockEntity((World) world, ((Math.floor(x)) + 0.5), ((Math.floor(y)) - 1),
+				FallingBlockEntity blockToSpawn = new FallingBlockEntity((World) world, ((Math.floor(x)) + 0.5), (((Math.floor(y)) - 1) + yOffset),
 						((Math.floor(z)) + 0.5), (success1));
 				blockToSpawn.fallTime = 1;
 				world.addEntity(blockToSpawn);
 			}
-		}
-		if (pressSucces) {
-			world.playEvent(2001, new BlockPos((int) (Math.floor(x)), (int) (Math.floor(y)), (int) (Math.floor(z))),
-					Block.getStateId((world.getBlockState(new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 1), (int) (Math.floor(z)))))));
 			if (((success1).getMaterial() == net.minecraft.block.material.Material.IRON)) {
 				if (world instanceof World && !world.isRemote()) {
-					((World) world).playSound(null, new BlockPos((int) (Math.floor(x)), (int) ((Math.floor(y)) - 1), (int) (Math.floor(z))),
+					((World) world).playSound(null,
+							new BlockPos((int) (Math.floor(x)), (int) (((Math.floor(y)) - 1) + yOffset), (int) (Math.floor(z))),
 							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.place")),
 							SoundCategory.NEUTRAL, (float) 1, (float) 1);
 				} else {
-					((World) world).playSound((Math.floor(x)), ((Math.floor(y)) - 1), (Math.floor(z)),
+					((World) world).playSound((Math.floor(x)), (((Math.floor(y)) - 1) + yOffset), (Math.floor(z)),
 							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.place")),
 							SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 				}

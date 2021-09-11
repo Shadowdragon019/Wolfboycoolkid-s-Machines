@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.STONECUTTER"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "cutter/cutter",
+    "namespace": "forge"
+  }
+}

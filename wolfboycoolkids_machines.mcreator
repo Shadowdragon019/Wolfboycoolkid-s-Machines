@@ -1140,6 +1140,269 @@
       "ids": {},
       "registry_name": "presser_arm",
       "path": "~/Blocks/Machines"
+    },
+    {
+      "name": "PresserArmBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_arm_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PresserHeadUpdateTick",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_head_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Pressing"
+    },
+    {
+      "name": "PresserHeadPressingUpdateTick",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_head_pressing_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Pressing"
+    },
+    {
+      "name": "PressingGUI",
+      "type": "gui",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pressing_gui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "PresserHeadPillerChecker",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_head_piller_checker",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Pressing"
+    },
+    {
+      "name": "PressHeadBaseCheck",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "press_head_base_check",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Pressing"
+    },
+    {
+      "name": "ActivePresser",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "active_presser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Pressing"
+    },
+    {
+      "name": "PressedObsidian",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "pressed_obsidian",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ObsidianReinforcedNetherBricks",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_reinforced_nether_bricks",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PresserHeadPressingBlockAdded",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "presser_head_pressing_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CutterCutterForge",
+      "type": "tag",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutter_cutter_forge",
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "SlicerSlicerForge",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slicer_slicer_forge",
+      "path": "~/Tags/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1153,11 +1416,12 @@
       "item.wolfboycoolkids_machines.incomplete_irininium_ingot": "Incomplete Irininium Ingot",
       "block.wolfboycoolkids_machines.gatunium_gravel_ore": "Gatunium Gravel Ore",
       "block.wolfboycoolkids_machines.magmator": "Magmator",
+      "block.wolfboycoolkids_machines.obsidian_reinforced_nether_bricks": "Obsidian Reinforced Nether Bricks",
       "item.wolfboycoolkids_automation.slimy_paper": "Slimy Paper",
       "block.wolfboycoolkids_machines.gatunium_red_sand_ore": "Gatunium Red Sand Ore",
-      "item.wolfboycoolkids_machines.coal_chunk": "Coal Chunk",
-      "item.wolfboycoolkids_machines.diamond_shard": "Diamond Shard",
       "item.wolfboycoolkids_machines.raw_gatunium": "Raw Gatunium",
+      "item.wolfboycoolkids_machines.diamond_shard": "Diamond Shard",
+      "item.wolfboycoolkids_machines.coal_chunk": "Coal Chunk",
       "gamerule.treeChopperBreakingSpeed.description": "How fast in ticks blocks broken by the Tree Chopper will break",
       "item.wolfboycoolkids_machines.iron_imbued_lapis_lazuli_sheet": "Iron Imbued Lapis Lazuli Sheet",
       "item.wolfboycoolkids_automation.lapis_lazuli_lump": "Lapis Lazuli Lump",
@@ -1167,8 +1431,8 @@
       "item.wolfboycoolkids_automation.slime_glob": "Glob of Slime",
       "item.wolfboycoolkids_machines.redstone_granules": "Redstone Granules",
       "item.wolfboycoolkids_machines.slimy_paper": "Slimy Paper",
-      "effect.returnium": "Returnium",
       "item.wolfboycoolkids_automation.incomplete_irininium_ingot": "Incomplete Irininium Ingot",
+      "effect.returnium": "Returnium",
       "item.wolfboycoolkids_machines.iron_imbued_lapis_lazuli_rod": "Iron Imbued Lapis Lazuli Rod",
       "block.wolfboycoolkids_machines.gatunium_sand_ore": "Gatunium Sand Ore",
       "item.wolfboycoolkids_automation.coal_chunk": "Coal Chunk",
@@ -1186,6 +1450,7 @@
       "item.wolfboycoolkids_machines.irininium_ingot": "Irininium Ingot",
       "block.wolfboycoolkids_automation.gatunium_dirt_ore": "Gatunium Dirt Ore",
       "item.wolfboycoolkids_automation.gatunium_nugget": "Gatunium Nugget",
+      "block.wolfboycoolkids_machines.pressed_obsidian": "Pressed Obsidian",
       "item.wolfboycoolkids_automation.emerald_shard": "Emerald Shard",
       "item.wolfboycoolkids_automation.redstone_granules": "Redstone Granules",
       "item.wolfboycoolkids_machines.irininium_pickaxe": "Irininium Pickaxe",
@@ -1233,7 +1498,12 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Pressing",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Loot Tables",

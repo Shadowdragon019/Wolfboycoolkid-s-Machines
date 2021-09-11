@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "iron_imbued_lapis_lazuli_block",
+    "texture": "obsidian",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "pressed_iron_imbued_lapis_lazuli_block:default",
+    "customModelName": "pressed_obsidian:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Pressed Iron Imbued Lapis Lazuli Block",
+    "name": "Pressed Obsidian",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 6.0,
+    "hardness": 25.0,
+    "resistance": 1200.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,11 +73,11 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

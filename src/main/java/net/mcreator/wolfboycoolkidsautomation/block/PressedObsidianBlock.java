@@ -20,6 +20,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -31,17 +32,18 @@ import java.util.List;
 import java.util.Collections;
 
 @WolfboycoolkidsMachinesModElements.ModElement.Tag
-public class PressedIronImbuedLapisLazuliBlockBlock extends WolfboycoolkidsMachinesModElements.ModElement {
-	@ObjectHolder("wolfboycoolkids_machines:pressed_iron_imbued_lapis_lazuli_block")
+public class PressedObsidianBlock extends WolfboycoolkidsMachinesModElements.ModElement {
+	@ObjectHolder("wolfboycoolkids_machines:pressed_obsidian")
 	public static final Block block = null;
-	public PressedIronImbuedLapisLazuliBlockBlock(WolfboycoolkidsMachinesModElements instance) {
-		super(instance, 76);
+	public PressedObsidianBlock(WolfboycoolkidsMachinesModElements instance) {
+		super(instance, 114);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -51,9 +53,9 @@ public class PressedIronImbuedLapisLazuliBlockBlock extends WolfboycoolkidsMachi
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			setRegistryName("pressed_iron_imbued_lapis_lazuli_block");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(25f, 1200f).setLightLevel(s -> 0)
+					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+			setRegistryName("pressed_obsidian");
 		}
 
 		@Override
@@ -70,6 +72,11 @@ public class PressedIronImbuedLapisLazuliBlockBlock extends WolfboycoolkidsMachi
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
 			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 3.25, 16)).withOffset(offset.x, offset.y, offset.z);
+		}
+
+		@Override
+		public PushReaction getPushReaction(BlockState state) {
+			return PushReaction.BLOCK;
 		}
 
 		@Override

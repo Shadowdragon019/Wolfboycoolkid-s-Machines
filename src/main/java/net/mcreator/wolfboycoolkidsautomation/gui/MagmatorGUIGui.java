@@ -113,13 +113,13 @@ public class MagmatorGUIGui extends WolfboycoolkidsMachinesModElements.ModElemen
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 8) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 38, 17) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 8) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 56, 17) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 97, 8) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 74, 17) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 79, 62) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 56, 53) {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 115, 35) {
 				@Override

@@ -24,11 +24,20 @@
     "boundingBoxes": [
       {
         "mx": 5.0,
-        "my": -5.0,
+        "my": -8.0,
         "mz": 5.0,
         "Mx": 11.0,
         "My": 16.0,
         "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": -13.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": -8.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -43,7 +52,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:PresserHead"
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -104,6 +113,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "placingCondition": {
+      "name": "PresserArmBlockValidPlacementCondition"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

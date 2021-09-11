@@ -1,9 +1,9 @@
 {
   "parent": "wolfboycoolkids_machines:custom/presser_head_pressing",
   "textures": {
-    "all": "wolfboycoolkids_machines:blocks/smooth_stone_stairs_left",
-    "particle": "wolfboycoolkids_machines:blocks/smooth_stone_stairs_left",
-    "smooth_stone_slab_side": "wolfboycoolkids_machines:blocks/smooth_stone_slab_right",
-    "smooth_stone": "wolfboycoolkids_machines:blocks/smooth_stone_stairs_left"
+    "all": "minecraft:block/smooth_stone",
+    "particle": "minecraft:block/smooth_stone",
+    "smooth_stone_slab_side": "minecraft:block/smooth_stone_slab_side",
+    "smooth_stone": "minecraft:block/smooth_stone"
   }
 }

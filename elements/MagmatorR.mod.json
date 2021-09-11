@@ -19,13 +19,13 @@
         "value": "Blocks.NETHER_BRICK"
       },
       {
-        "value": "Blocks.NETHER_BRICK"
+        "value": "CUSTOM:ObsidianReinforcedNetherBricks"
       },
       {
         "value": "Blocks.FURNACE"
       },
       {
-        "value": "Blocks.NETHER_BRICK"
+        "value": "CUSTOM:ObsidianReinforcedNetherBricks"
       },
       {
         "value": "Blocks.MAGMA"

@@ -20,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 186,
-          "y": 44
+          "x": 163,
+          "y": 53
         }
       },
       {
@@ -34,8 +34,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 204,
-          "y": 44
+          "x": 181,
+          "y": 53
         }
       },
       {
@@ -48,8 +48,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 222,
-          "y": 44
+          "x": 199,
+          "y": 53
         }
       },
       {
@@ -62,8 +62,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 204,
-          "y": 98
+          "x": 181,
+          "y": 89
         }
       },
       {
@@ -81,7 +81,7 @@
     "gridSettings": {
       "sx": 18,
       "sy": 18,
-      "ox": 11,
+      "ox": 19,
       "oy": 15,
       "snapOnGrid": true
     }
